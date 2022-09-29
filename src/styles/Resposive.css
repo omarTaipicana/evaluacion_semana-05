@@ -4,6 +4,10 @@
         width: 100%;
     }
 
+    .input-content {
+        background-size: cover;
+    }
+
     .pokedex-header {
         flex-direction: column;
         align-items: center;
@@ -58,10 +62,11 @@
         justify-content: center;
         width: 100%;
         height: max-content;
+        margin: 1rem 0;
     }
 
     .content-details {
-        height: 235vh;
+        height: min-content;
     }
 
     .details-content {
