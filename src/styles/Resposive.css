@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px) {
+
+    .input-info {
+        width: 100%;
+    }
+
+    .pokedex-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+
+    .pokedex-gif img {
+        width: 100%;
+    }
+
+    .input-search {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .paginated-content {
+        width: 100%;
+    }
+
+    .pokedex-details-content {
+        flex-direction: column;
+    }
+
+    .poke-details-img {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .poke_name_details {
+        width: 55%;
+        font-size: 1rem;
+    }
+
+    .img-details {
+        width: 80%;
+    }
+
+    .content-pokedex-details {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+    }
+
+    .content-details {
+        height: 235vh;
+    }
+
+    .details-content {
+        width: 100%
+    }
+
+    .pokebola-details {
+        width: 100%;
+    }
+
+    .movements-content {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+}

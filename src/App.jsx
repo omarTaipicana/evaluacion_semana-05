@@ -1,4 +1,5 @@
-import './App.css'
+import './styles/App.css'
+import "./styles/Resposive.css"
 import { HashRouter, Routes, Route, Link } from "react-router-dom"
 import InputUser from './components/InputUser'
 import Pokedex from './components/Pokedex'

@@ -99,7 +99,7 @@ const PokedexDetails = () => {
                 </div>
                 <div className='content-pokedex-details'>
                     <div className='details-content'>
-                        <img className='pokebola-details' src={pokebola} alt="" />
+                        <img style={{ border: `solid 0.3rem ${pokemonColor}` }} className='pokebola-details' src={pokebola} alt="" />
                         <div style={{background:pokemonColor}} className='details-info-content'>
                             <p><b>{pokemonId.name?.toUpperCase()}{" "}#{" "}{(pokemonId.id)}</b></p>
                             <div className='w-h-content'>
