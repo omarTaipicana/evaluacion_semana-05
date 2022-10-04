@@ -88,7 +88,7 @@ const PokemonCard = ({ url, urlColor }) => {
                     <li><b>Speed:</b>{" "}{pokemon?.stats?.[5]?.base_stat}</li>
                 </ul>
                 <div className='img-card-content'>
-                    <img className='img-card' src={pokemon.id ? `https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png` : "#"} alt="" />
+                    <img className='img-card' src={pokemon.id ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png` : "#"} alt="" />
                 </div>
             </div>
             <p className='card-types'><b>Types:</b>{" "}{pokemon?.types?.[0]?.type.name}{", "}{pokemon?.types?.[1]?.type.name}</p>

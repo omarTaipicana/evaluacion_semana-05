@@ -94,7 +94,7 @@ const PokedexDetails = () => {
                         <br />
                         <h4 className='poke_name_details img-posicion'>{(pokemonId.name?.toUpperCase())}</h4>
                         <br />
-                        <img className='img-details img-posicion' src={pokemonId.id ? `https://cdn.traction.one/pokedex/pokemon/${pokemonId.id}.png` : "#"} alt="" />
+                        <img className='img-details img-posicion' src={pokemonId.id ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonId.id}.png` : "#"} alt="" />
                     </div>
                 </div>
                 <div className='content-pokedex-details'>
